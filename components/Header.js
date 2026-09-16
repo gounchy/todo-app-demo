@@ -11,7 +11,7 @@ export default function Header({ STUDENT_ID, colors, total, completedCount, rema
       {/* Feature: Counter - đếm tổng, đã xong, còn lại */}
       <View style={styles.counterRow}>
         <Text style={styles.counterText}>Tổng: {total}</Text>
-        <Text style={styles.counterText}>Xong: {completedCount}</Text>
+        <Text style={styles.counterText}>Đã hoàn thành: {completedCount}</Text>
         <Text style={styles.counterText}>Còn: {remaining}</Text>
       </View>
 
